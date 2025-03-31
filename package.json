@@ -1,6 +1,6 @@
 {
   "name": "@jakeboone02/generate-dts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A recursive DTS generator using oxc-transform",
   "module": "dist/index.js",
   "type": "module",
@@ -10,6 +10,7 @@
       "default": "./dist/index.js"
     }
   },
+  "types": "./dist/index.d.ts",
   "devDependencies": {
     "@types/bun": "^1.2.8",
     "oxc-transform": "^0.61.2"
