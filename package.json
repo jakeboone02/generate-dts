@@ -1,0 +1,37 @@
+{
+  "name": "@jakeboone02/generate-dts",
+  "version": "0.1.0",
+  "description": "A recursive DTS generator using oxc-transform",
+  "module": "dist/index.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.8",
+    "oxc-transform": "^0.61.2"
+  },
+  "peerDependencies": {
+    "oxc-transform": "^0.61.2"
+  },
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "author": "Jake Boone",
+  "homepage": "https://github.com/jakeboone02/generate-dts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakeboone02/generate-dts.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "bun build.ts",
+    "test": "bun test"
+  }
+}
