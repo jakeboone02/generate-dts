@@ -13,10 +13,10 @@
   "types": "./dist/index.d.ts",
   "devDependencies": {
     "@types/bun": "^1.2.8",
-    "oxc-transform": "^0.61.2"
+    "oxc-transform": "^0.63.0"
   },
   "peerDependencies": {
-    "oxc-transform": "^0.61.2"
+    "oxc-transform": "^0.63.0"
   },
   "files": [
     "dist"
